@@ -11,6 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculadora">
+
+        <!-- Segunda pantalla: ResultadoActivity -->
+        <activity
+            android:name=".ResultadoActivity"
+            android:exported="false" />
+
+        <!-- Pantalla principal: MainActivity -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -21,6 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
