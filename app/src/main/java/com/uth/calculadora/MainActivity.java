@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 case "division": resultado = operaciones.dividir(a, b); break;
             }
 
-            // Enviar resultado a ResultadoActivity
+
             Intent intent = new Intent(this, ResultadoActivity.class);
             intent.putExtra("resultado", resultado);
             startActivity(intent);
